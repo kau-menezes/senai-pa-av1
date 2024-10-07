@@ -19,7 +19,7 @@ export default function RootLayout({
       <body
         className={` antialiased`}
       >
-        <Header op1="Home 🏠" op2="IMC 🏋️‍♂️" op3="Average 📊"/>
+        <Header op1="Home 🏠" op2="BMI 🏋️‍♂️" op3="Average 📊"/>
         <main>
           {children}
         </main>
