@@ -52,7 +52,7 @@ const BMI: React.FC = () => {
                         id="weight-input" 
                         type="text" 
                         value={weight} 
-                        placeholder="Type yout weight..." 
+                        placeholder="Type..." 
                         onChange={ (e) => setWeight(e.target.value)}
                         className="w-24 p-1 placeholder:text-gray-400"
                     />
@@ -72,7 +72,7 @@ const BMI: React.FC = () => {
                         id="height-input" 
                         type="text" 
                         value={height} 
-                        placeholder="Type yout weight..." 
+                        placeholder="Type..." 
                         onChange={ (e ) => setHeight(e.target.value)}
                         className="w-24 p-1 placeholder:text-gray-400"
                     />

@@ -64,7 +64,7 @@ const BMI: React.FC = () => {
                             id="score1-input" 
                             type="text" 
                             value={score1} 
-                            placeholder="Type yout weight..." 
+                            placeholder="Type..." 
                             onChange={ (e) => setScore1(e.target.value)}
                             className="w-24 p-1 placeholder:text-gray-400"
                         />
@@ -87,7 +87,7 @@ const BMI: React.FC = () => {
                             id="score2-input" 
                             type="text" 
                             value={score2} 
-                            placeholder="Type yout weight..." 
+                            placeholder="Type..." 
                             onChange={ (e) => setScore2(e.target.value)}
                             className="w-24 p-1 placeholder:text-gray-400"
                         />
@@ -111,7 +111,7 @@ const BMI: React.FC = () => {
                             id="score3-input" 
                             type="text" 
                             value={score3} 
-                            placeholder="Type yout weight..." 
+                            placeholder="Type..." 
                             onChange={ (e) => setScore3(e.target.value)}
                             className="w-24 p-1 placeholder:text-gray-400"
                         />
@@ -135,7 +135,7 @@ const BMI: React.FC = () => {
                             id="score4-input" 
                             type="text" 
                             value={score4} 
-                            placeholder="Type yout weight..." 
+                            placeholder="Type..." 
                             onChange={ (e) => setScore4(e.target.value)}
                             className="w-24 p-1 placeholder:text-gray-400"
                         />
@@ -159,7 +159,7 @@ const BMI: React.FC = () => {
                             id="score5-input" 
                             type="text" 
                             value={score5} 
-                            placeholder="Type yout weight..." 
+                            placeholder="Type..." 
                             onChange={ (e) => setScore5(e.target.value)}
                             className="w-24 p-1 placeholder:text-gray-400"
                         />
